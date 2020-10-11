@@ -10,7 +10,7 @@ if userphone_str[0] == "0" and userphone_str[1] == "7" and len(userphone_str) ==
             print("Numarul de telfon trebuie sa contian doar cifre!")
 
 elif userphone_str[0] != "0" or userphone_str[1] != "7" or len(userphone_str) != 10:
-    print(userphone_str[0],userphone_str[1],len(userphone_str))
+    print(userphone_str[0], userphone_str[1], len(userphone_str))
     phoneisvalid_bol = False
     print("Eroare de format!")
 
