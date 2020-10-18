@@ -6,7 +6,7 @@ date_dict = {1: 19, 2: 19, 3: 18, 4: 18, 5: 20, 6: 20}
 year_to_test = 0
 
 # Verificare lungime CNP
-if len(str_cnp) > 13:
+if len(str_cnp) != 13:
     bol_cnp_valid = False
 
 # Verificare caractere numerice din CNP
