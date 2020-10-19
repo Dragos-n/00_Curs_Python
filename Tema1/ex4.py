@@ -43,6 +43,11 @@ if bol_cnp_valid:
     if not int(str(str_cnp[7] + str_cnp[8])) in range(1, 46) and not int(str(str_cnp[7] + str_cnp[8])) in range(51, 52):
         bol_cnp_valid = False
 
+# Verificare numar odine
+if bol_cnp_valid:
+    if int(str_cnp[9] + str_cnp[10] + str_cnp[11]) == 0:
+        bol_cnp_valid = False
+
 # Calcul cifra de control
 if bol_cnp_valid:
     cnp_check = "279146358279"
