@@ -40,7 +40,7 @@ if bol_cnp_valid:
 
 # Verificare judet
 if bol_cnp_valid:
-    if not int(str(str_cnp[7] + str_cnp[8])) in range(1, 52):
+    if not int(str(str_cnp[7] + str_cnp[8])) in range(1, 46) and not int(str(str_cnp[7] + str_cnp[8])) in range(51, 52):
         bol_cnp_valid = False
 
 # Calcul cifra de control
