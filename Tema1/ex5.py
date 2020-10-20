@@ -34,11 +34,3 @@ while True:
             print("VICTORIE!  Cuvantul a fost: *** {} ***".format(HangmanWord))
             break
         print("Corect! \n        {}".format(ShownWord))
-
-
-
-
-
-
-
-
